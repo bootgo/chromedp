@@ -12,16 +12,16 @@ import (
 
 	"github.com/mailru/easyjson"
 
-	"github.com/chromedp/cdproto"
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/css"
-	"github.com/chromedp/cdproto/dom"
-	"github.com/chromedp/cdproto/inspector"
-	"github.com/chromedp/cdproto/log"
-	"github.com/chromedp/cdproto/page"
-	"github.com/chromedp/cdproto/runtime"
+	"github.com/bootgo/cdproto"
+	"github.com/bootgo/cdproto/cdp"
+	"github.com/bootgo/cdproto/css"
+	"github.com/bootgo/cdproto/dom"
+	"github.com/bootgo/cdproto/inspector"
+	"github.com/bootgo/cdproto/log"
+	"github.com/bootgo/cdproto/page"
+	"github.com/bootgo/cdproto/runtime"
 
-	"github.com/chromedp/chromedp/client"
+	"github.com/bootgo/chromedp/client"
 )
 
 // TargetHandler manages a Chrome DevTools Protocol target.

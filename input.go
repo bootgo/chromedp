@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/chromedp/cdproto/cdp"
-	"github.com/chromedp/cdproto/dom"
-	"github.com/chromedp/cdproto/input"
+	"github.com/bootgo/cdproto/cdp"
+	"github.com/bootgo/cdproto/dom"
+	"github.com/bootgo/cdproto/input"
 
-	"github.com/chromedp/chromedp/kb"
+	"github.com/bootgo/chromedp/kb"
 )
 
 // MouseAction is a mouse action.
